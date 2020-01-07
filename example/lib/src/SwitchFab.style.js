@@ -1,14 +1,22 @@
 export const _shadowStyle = shadowColor => ({
   shadowColor,
-  shadowRadius: 8,
-  shadowOpacity: 0.3,
+  shadowRadius: 5,
+  shadowOpacity: 0.15,
   shadowOffset: {
     width: 0,
     height: 3
   }
 });
 
-export const _container = (height, width, borderRadius, backgroundColor) => ({
+export const _container = (
+  height,
+  width,
+  borderRadius,
+  backgroundColor,
+  isActive,
+  activeBGColor,
+  inactiveBGColor
+) => ({
   width,
   height,
   borderRadius,
