@@ -25,6 +25,7 @@ const App = () => {
         <View style={styles.switchFabContainer}>
           <SwitchFab
             name="android"
+            isActive
             type="FontAwesome"
             activeBGColor="#A4C639"
             inactiveIconColor="#A4C639"
