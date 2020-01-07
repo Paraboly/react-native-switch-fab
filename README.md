@@ -90,7 +90,7 @@ Check the example for the multiple & advanced usage
 ## Future Plans
 
 - [x] ~~LICENSE~~
-- [ ] New Screenshot
+- [x] ~~New Screenshots~~
 - [ ] Write an article about the lib on Medium
 
 ## Author
