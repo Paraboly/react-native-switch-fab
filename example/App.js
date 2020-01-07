@@ -12,11 +12,25 @@ const App = () => {
             name="atom"
             type="Fontisto"
             rippleColor="transparent"
-            activeBGColor="#00B1D2FF"
-            inactiveBGColor="#FDDB27FF"
+            activeBGColor="#61DBFB"
+            inactiveIconColor="#61DBFB"
             onPress={isActive => console.log(isActive)}
           />
           <Text style={styles.textStyle}>React</Text>
+        </View>
+        <View style={styles.switchFabContainer}>
+          <SwitchFab onPress={isActive => console.log(isActive)} />
+          <Text style={styles.textStyle}>Apple</Text>
+        </View>
+        <View style={styles.switchFabContainer}>
+          <SwitchFab
+            name="android"
+            type="FontAwesome"
+            activeBGColor="#A4C639"
+            inactiveIconColor="#A4C639"
+            onPress={isActive => console.log(isActive)}
+          />
+          <Text style={styles.textStyle}>Android</Text>
         </View>
       </SafeAreaView>
     </>

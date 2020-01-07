@@ -12,7 +12,9 @@
 
 <p align="center">
   <img alt="React Native SwitchFab by Paraboly"
-        src="assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="assets/Screenshots/example.png" />
+  <img alt="React Native SwitchFab by Paraboly"
+        src="assets/Screenshots/example.gif" />
 </p>
 
 # Installation
